@@ -1,0 +1,51 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+body{
+    background-image: url("asset/vishnu-r-nair-m1WZS5ye404-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.keys{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(9, 100px);
+}
+
+.key{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 4px solid #0e0808;
+    text-align: center;
+    height: 100px;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    background-color: #fff0fa30;
+    text-transform: uppercase;
+    color: #ff0023f0;
+    
+    transition: all 0.07s;
+    text-shadow: 0 0 5px black;
+}
+
+.play{
+    transform: scale(1.1);
+    border-color: bisque;
+    box-shadow: 0 0 10px bisque;
+}
+.key kbd{
+    font-size: 25px;
+    color: #005c7b;
+}
